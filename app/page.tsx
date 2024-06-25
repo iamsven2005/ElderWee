@@ -4,16 +4,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
-      <header className="bg-white flex items-center justify-between p-5">
+    <main className="flex flex-col items-center">
+      <header className="bg-white flex items-center p-5 justify-between w-full">
         <Image
           src="/paypal.png"
           alt="paypal"
-          width={100} height={50} />
-        <div className="gap-2 flex flex-none">
+          width={100}
+          height={50}
+        />
+        <div className="gap-2 flex">
           <Link href={`/login`} className="flex-none">
-            <Button className="rounded-full"
-              variant="outline">
+            <Button className="rounded-full" variant="outline">
               Log in
             </Button>
           </Link>
@@ -24,19 +25,17 @@ export default function Home() {
           </Link>
         </div>
       </header>
-      <section className="w-full bg-blue-400 items-end justify-center flex h-[400px] p-5 flex-col">
-        <h1 className="text-4xl text-center text-white m-5">
+      <section className="w-full bg-blue-400 items-center justify-center flex h-[400px] p-5 flex-col text-center">
+        <h1 className="text-4xl text-white m-5">
           Take care of you and yours at home, and we can take care of you online
         </h1>
-          <Button className="bg-white text-blue-600  hover:bg-white rounded-full mx-auto p-5">
+        <Button className="bg-white text-blue-600 hover:bg-white rounded-full mx-auto p-5">
           <Link href={`/signup`} className="flex-none">
             Sign up now
-            </Link>
-          </Button>
-
+          </Link>
+        </Button>
       </section>
-      <section className="bg-blue-600 h-[100px]">
-
+      <section className="bg-blue-600 h-[100px] w-full">
       </section>
       <section className="flex flex-row p-20 gap-10">
         <img src="/1.png" />
@@ -79,10 +78,10 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center justify-center p-20 w-full bg-blue-300">
         <h1 className="text-white text-center text-2xl">
-          Join the global community of Paypal users who are sending spendinfg and receiving money securely everyday.
+          Join the global community of Paypal users who are sending spending and receiving money securely every day.
         </h1>
         <Link href={`/signup`} className="flex-none">
-          <Button className="bg-white text-blue-600  hover:bg-white rounded-full m-5">
+          <Button className="bg-white text-blue-600 hover:bg-white rounded-full m-5">
             Sign up now
           </Button>
         </Link>
@@ -124,7 +123,7 @@ export default function Home() {
           # For eligible orders within 180 days of payment. <Link href={`/terms`} className="text-blue-600">
             Terms and conditions apply</Link>
         </p>
-        <div className="mt-6 flex flex-row font-bold">
+        <div className="mt-6 flex flex-row font-bold gap-4">
           <Link href="https://www.paypal.com/sg/cshelp/personal">Help</Link>
           <Link href="https://www.paypal.com/sg/smarthelp/contact-us">Contact</Link>
           <Link href='https://www.paypal.com/sg/webapps/mpp/paypal-fees'>Fees</Link>

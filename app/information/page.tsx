@@ -6,9 +6,12 @@ import Link from "next/link";
 
 const Password = () => {
     return (
-        <div className="flex flex-col w-96 mx-auto">
+        <div className="flex flex-col w-96 mx-auto m-5">
             <div className="flex flex-row justify-between items-center mb-5">
+                <Link href="/password">
+
                 <ArrowLeft />
+                </Link>
                 <img src="/logo2.png" className="h-10" alt="Logo"/>
                 <div></div>
             </div>

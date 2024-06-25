@@ -6,7 +6,7 @@ import { ResponsiveBar } from "@nivo/bar"
 
 const Home = () => {
     return (
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap mx-auto items-center justify-center">
             <div>
                 <div className="m-5 p-5 bg-slate-50 shadow-xl">
                     <h1 className="text-xl font-bold">

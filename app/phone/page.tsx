@@ -5,10 +5,12 @@ import Link from "next/link";
 
 const Phone = () => {
     return ( 
-        <div className="flex flex-col w-96 mx-auto">
+        <div className="flex flex-col w-96 mx-auto m-5">
             <div className="flex flex-row justify-between">
+            <Link href="/signup">
             <ArrowLeft/>
-            <img src="/logo2.png" className="size-10"/>
+            </Link>
+            <img src="/Logo2.png" className="size-10"/>
             <div>
             {/* For spacing */}
             </div>

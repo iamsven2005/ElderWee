@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const MainPage = () => {
     return ( 
-        <div className="flex flex-wrap m-5 p-5">
+        <div className="flex flex-wrap m-5 p-5 mx-auto items-center justify-center">
             <img src="/guy.png" className="rounded-xl"/>
             <div className="m-5 w-60">
                 <h1 className="font-bold text-2xl mb-5">
