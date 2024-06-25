@@ -24,7 +24,7 @@ const Home = () => {
                                 Transfer Funds
                             </Button>
                         </Link>
-                        <Link href="/dashboard/transfer">
+                        <Link href="/dashboard/link">
                             <Button className="rounded-full">
                                 Top Up
                             </Button>
